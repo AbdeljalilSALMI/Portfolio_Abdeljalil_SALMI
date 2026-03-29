@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdeljalil SALMI — Élève Ingénieur MSI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- ═══ NAVIGATION ═══════════════════════════════════════════════ -->
+    <nav id="navbar">
+    <div class="nav-logo">AS.</div>
+    <ul class="nav-links">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#experience">Expérience</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="Assets/Abdeljalil salmi.pdf" download class="btn btn-primary" style="padding:8px 18px;font-size:0.82rem;">
+        <i class="fas fa-download"></i> CV
+        </a></li>
+    </ul>
+    <div style="display:flex;gap:0.8rem;align-items:center;">
+        <button class="theme-toggle" id="themeToggle" aria-label="Changer de thème">
+        <i class="fas fa-moon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+        <i class="fas fa-bars"></i>
+        </button>
+    </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="closeMobile()">À propos</a>
+    <a href="#skills" onclick="closeMobile()">Compétences</a>
+    <a href="#projects" onclick="closeMobile()">Projets</a>
+    <a href="#experience" onclick="closeMobile()">Expérience</a>
+    <a href="#contact" onclick="closeMobile()">Contact</a>
+    </div>
+
+    <!-- ═══ HERO ════════════════════════════════════════════════════════ -->
+    <section class="hero" id="home">
+    <div class="hero-orb orb1"></div>
+    <div class="hero-orb orb2"></div>
+    <div class="hero-orb orb3"></div>
+
+    <div class="hero-grid">
+        <div class="hero-content">
+        <div class="hero-badge">
+            <span class="badge-dot"></span>
+            Disponible pour un stage PFA · Juillet – Août
+        </div>
+        <h1>
+            <span class="name">Abdeljalil SALMI</span>
+            <span class="grad">Élève Ingénieur MSI</span>
+        </h1>
+        <p class="hero-sub">
+            Passionné par le développement logiciel et la gouvernance des systèmes d'information. 
+            Formé à l'ENSA Khouribga, je recherche un stage PFA pour consolider mes compétences dans un environnement professionnel.
+        </p>
+        <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary">
+            <i class="fas fa-rocket"></i> Voir mes projets
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+            <i class="fas fa-envelope"></i> Me contacter
+            </a>
+        </div>
+        </div>
+
+        <div class="hero-avatar">
+        <div class="avatar-ring">
+            <div class="avatar-inner"> 
+                <img src="Assets/Photo.png" alt="Photo de profil d'Abdeljalil SALMI" class="avatar-img">
+            </div>
+            <div class="avatar-glow"></div>
+        </div>
+        <div class="skill-chip chip-java"><i class="fab fa-java"></i> Java</div>
+        <div class="skill-chip chip-react"><i class="fab fa-react"></i> React</div>
+        <div class="skill-chip chip-python"><i class="fab fa-python"></i> Python</div>
+        <div class="skill-chip chip-php"><i class="fab fa-php"></i> PHP</div>
+        </div>
+    </div>
+    </section>
+
+    <!-- ═══ ABOUT ════════════════════════════════════════════════════════ -->
+    <section id="about">
+    <div class="about-grid">
+        <div class="about-text reveal">
+        <span class="section-tag">Qui suis-je ?</span>
+        <h2 class="section-title">À propos<br>de moi</h2>
+        <div class="section-line"></div>
+        <p>
+            Je suis Abdeljalil SALMI, élève ingénieur en 2ᵉ année à l'<strong>École Nationale des Sciences Appliquées de Khouribga (ENSAKH)</strong>, spécialité Management et Gouvernance des Systèmes d'Information.
+        </p>
+        <p>
+            Titulaire d'un Baccalauréat mention <strong>Très Bien</strong> en Sciences Physiques et Chimiques, j'ai développé une solide base technique en développement web, applications d'entreprise et traitement de données.
+        </p>
+        <p>
+            Je recherche un <strong>stage PFA de 2 mois</strong> (juillet – août) pour valider ma 2ᵉ année et mettre en pratique mes compétences dans un environnement professionnel concret.
+        </p>
+        <p>
+            Trilingue (Français C1, Anglais C1, Arabe courant), je suis capable de m'intégrer rapidement dans des équipes internationales et de m'adapter à des contextes variés.
+        </p>
+        </div>
+
+        <div class="about-highlights reveal">
+        <div class="highlight-card">
+            <div class="highlight-icon ic-blue"><i class="fas fa-graduation-cap"></i></div>
+            <div>
+            <h4>Formation d'excellence</h4>
+            <p>ENSAKH · Management & Gouvernance des SI · 2022 – Présent</p>
+            </div>
+        </div>
+        <div class="highlight-card">
+            <div class="highlight-icon ic-purple"><i class="fas fa-code"></i></div>
+            <div>
+            <h4>Compétences full-stack</h4>
+            <p>Java, PHP, Python, React, Spring Boot, Laravel, MySQL</p>
+            </div>
+        </div>
+        <div class="highlight-card">
+            <div class="highlight-icon ic-cyan"><i class="fas fa-globe"></i></div>
+            <div>
+            <h4>Multilinguisme</h4>
+            <p>Français C1 · Anglais C1 · Arabe courant</p>
+            </div>
+        </div>
+        <div class="highlight-card">
+            <div class="highlight-icon ic-green"><i class="fas fa-users"></i></div>
+            <div>
+            <h4>Soft skills solides</h4>
+            <p>Travail en équipe · Autonomie · Polyvalence · Résolution de problèmes</p>
+            </div>
+        </div>
+        <div class="highlight-card">
+            <div class="highlight-icon ic-blue"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+            <h4>Basé à Khouribga</h4>
+            <p>Maroc · Disponible en mobilité nationale</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- ═══ SKILLS ════════════════════════════════════════════════════════ -->
+    <section id="skills">
+    <div class="skills-container">
+        <div class="reveal" style="text-align:center; margin-bottom:3rem;">
+        <span class="section-tag">Mes outils</span>
+        <h2 class="section-title">Compétences techniques</h2>
+        <div class="section-line" style="margin: 1rem auto 0;"></div>
+        </div>
+
+        <div class="skills-grid">
+        <!-- Langages -->
+        <div class="skill-category reveal">
+            <div class="cat-header">
+            <div class="cat-icon ic-blue"><i class="fas fa-code"></i></div>
+            <h3>Langages</h3>
+            </div>
+            <div class="skill-bar-row">
+            <div class="skill-bar-label"><span>Java</span><span>85%</span></div>
+            <div class="bar-track"><div class="bar-fill b-accent" data-width="85"></div></div>
+            </div>
+            <div class="skill-bar-row">
+            <div class="skill-bar-label"><span>PHP</span><span>80%</span></div>
+            <div class="bar-track"><div class="bar-fill b-purple" data-width="80"></div></div>
+            </div>
+            <div class="skill-bar-row">
+            <div class="skill-bar-label"><span>Python</span><span>75%</span></div>
+            <div class="bar-track"><div class="bar-fill b-cyan" data-width="75"></div></div>
+            </div>
+            <div class="skill-bar-row">
+            <div class="skill-bar-label"><span>JavaScript</span><span>78%</span></div>
+            <div class="bar-track"><div class="bar-fill b-accent" data-width="78"></div></div>
+            </div>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="skill-category reveal">
+            <div class="cat-header">
+            <div class="cat-icon ic-purple"><i class="fas fa-layer-group"></i></div>
+            <h3>Frameworks & Web</h3>
+            </div>
+            <div class="skill-bar-row">
+            <div class="skill-bar-label"><span>Spring Boot</span><span>80%</span></div>
+            <div class="bar-track"><div class="bar-fill b-accent" data-width="80"></div></div>
+            </div>
+            <div class="skill-bar-row">
+            <div class="skill-bar-label"><span>Laravel</span><span>82%</span></div>
+            <div class="bar-track"><div class="bar-fill b-purple" data-width="82"></div></div>
+            </div>
+            <div class="skill-bar-row">
+            <div class="skill-bar-label"><span>React</span><span>72%</span></div>
+            <div class="bar-track"><div class="bar-fill b-cyan" data-width="72"></div></div>
+            </div>
+            <div class="skill-bar-row">
+            <div class="skill-bar-label"><span>HTML / CSS</span><span>88%</span></div>
+            <div class="bar-track"><div class="bar-fill b-accent" data-width="88"></div></div>
+            </div>
+        </div>
+
+        <!-- Tools & DB -->
+        <div class="skill-category reveal">
+            <div class="cat-header">
+            <div class="cat-icon ic-cyan"><i class="fas fa-database"></i></div>
+            <h3>BDD & Outils</h3>
+            </div>
+            <div class="skill-bar-row">
+            <div class="skill-bar-label"><span>MySQL</span><span>85%</span></div>
+            <div class="bar-track"><div class="bar-fill b-accent" data-width="85"></div></div>
+            </div>
+            <div class="skill-bar-row">
+            <div class="skill-bar-label"><span>PostgreSQL</span><span>65%</span></div>
+            <div class="bar-track"><div class="bar-fill b-cyan" data-width="65"></div></div>
+            </div>
+            <div style="margin-top:1.2rem;">
+            <div class="cat-header" style="margin-bottom:0.8rem;">
+                <div class="cat-icon ic-green" style="width:30px;height:30px;font-size:0.85rem;"><i class="fas fa-tools"></i></div>
+                <h3 style="font-size:0.9rem;">Autres outils</h3>
+            </div>
+            <div class="skill-tags">
+                <span class="tag">Git</span>
+                <span class="tag">UML</span>
+                <span class="tag">Odoo</span>
+                <span class="tag">JavaFX</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">Bootstrap</span>
+                <span class="tag">Scikit-learn</span>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- ═══ PROJECTS ══════════════════════════════════════════════════════ -->
+    <section id="projects">
+    <div class="projects-container">
+        <div class="reveal" style="text-align:center; margin-bottom:3rem;">
+        <span class="section-tag">Mes réalisations</span>
+        <h2 class="section-title">Projets de développement</h2>
+        <div class="section-line" style="margin:1rem auto 0;"></div>
+        </div>
+
+        <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card reveal">
+            <div class="project-header">
+            <div class="project-icon-row">
+                <div class="project-icon ic-cyan" style="background:rgba(6,182,212,0.15);">💬</div>
+            </div>
+            <h3>Plateforme de messagerie</h3>
+            <p>Application de messagerie en temps réel avec Spring Boot et React. Architecture microservices, WebSocket pour les messages instantanés, base de données cloud PostgreSQL.</p>
+            </div>
+            <div class="project-techs">
+            <span class="tech-badge">Spring Boot</span>
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">JavaScript</span>
+            <span class="tech-badge">PostgreSQL</span>
+            <span class="tech-badge">WebSocket</span>
+            </div>
+            <div class="project-footer">
+            <a href="#" class="proj-btn primary"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" class="proj-btn"><i class="fas fa-external-link-alt"></i> Démo</a>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal">
+            <div class="project-header">
+            <div class="project-icon-row">
+                <div class="project-icon" style="background:rgba(139,92,246,0.15);">🎬</div>
+            </div>
+            <h3>App de streaming Java</h3>
+            <p>Application desktop pour gérer abonnés et paiements d'une plateforme de streaming. Interface JavaFX intuitive, gestion complète des abonnements avec opérations CRUD.</p>
+            </div>
+            <div class="project-techs">
+            <span class="tech-badge">Java</span>
+            <span class="tech-badge">JavaFX</span>
+            <span class="tech-badge">MySQL</span>
+            <span class="tech-badge">JDBC</span>
+            </div>
+            <div class="project-footer">
+            <a href="#" class="proj-btn primary"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" class="proj-btn"><i class="fas fa-external-link-alt"></i> Démo</a>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal">
+            <div class="project-header">
+            <div class="project-icon-row">
+                <div class="project-icon" style="background:rgba(91,127,255,0.15);">✅</div>
+            </div>
+            <h3>Gestion des tâches PHP</h3>
+            <p>Application web de type To-Do List avec gestion des statuts. Interface responsive avec Bootstrap, opérations CRUD complètes et stockage MySQL.</p>
+            </div>
+            <div class="project-techs">
+            <span class="tech-badge">PHP</span>
+            <span class="tech-badge">JavaScript</span>
+            <span class="tech-badge">MySQL</span>
+            <span class="tech-badge">Bootstrap</span>
+            </div>
+            <div class="project-footer">
+            <a href="#" class="proj-btn primary"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" class="proj-btn"><i class="fas fa-external-link-alt"></i> Démo</a>
+            </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card reveal">
+            <div class="project-header">
+            <div class="project-icon-row">
+                <div class="project-icon" style="background:rgba(248,152,32,0.15);">🤖</div>
+            </div>
+            <h3>Machine Learning — Titanic</h3>
+            <p>Modèles de prédiction de survie des passagers sur le dataset Titanic (Kaggle). Feature engineering, comparaison de plusieurs algorithmes de classification.</p>
+            </div>
+            <div class="project-techs">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">Pandas</span>
+            <span class="tech-badge">Scikit-learn</span>
+            <span class="tech-badge">Kaggle</span>
+            </div>
+            <div class="project-footer">
+            <a href="#" class="proj-btn primary"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#" class="proj-btn"><i class="fas fa-external-link-alt"></i> Kaggle</a>
+            </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card reveal">
+            <div class="project-header">
+            <div class="project-icon-row">
+                <div class="project-icon" style="background:rgba(52,211,153,0.15);">📊</div>
+            </div>
+            <h3>Analyse de données Python</h3>
+            <p>Pipeline de traitement de fichiers CSV avec Pandas : nettoyage des données, filtrage avancé, agrégations et analyses statistiques descriptives.</p>
+            </div>
+            <div class="project-techs">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">Pandas</span>
+            <span class="tech-badge">NumPy</span>
+            <span class="tech-badge">Matplotlib</span>
+            </div>
+            <div class="project-footer">
+            <a href="#" class="proj-btn primary"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+
+        <!-- Project 6 (Stage) -->
+        <div class="project-card reveal" style="border-color:rgba(139,92,246,0.3);">
+            <div class="project-header">
+            <div class="project-icon-row">
+                <div class="project-icon" style="background:rgba(139,92,246,0.15);">🖥️</div>
+                <span style="font-size:0.72rem;background:rgba(139,92,246,0.15);border:1px solid rgba(139,92,246,0.3);color:var(--accent2);padding:3px 10px;border-radius:99px;font-weight:600;">Stage</span>
+            </div>
+            <h3>Gestion de parc informatique</h3>
+            <p>Application web développée en stage à l'ORMVA-tf. Gestion des équipements, affectations et maintenance du parc informatique régional.</p>
+            </div>
+            <div class="project-techs">
+            <span class="tech-badge">Laravel</span>
+            <span class="tech-badge">MySQL</span>
+            <span class="tech-badge">Bootstrap</span>
+            <span class="tech-badge">JavaScript</span>
+            </div>
+            <div class="project-footer">
+            <a href="#" class="proj-btn primary"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </section>
+
+    <!-- ═══ EXPERIENCE ════════════════════════════════════════════════════ -->
+    <section id="experience">
+    <div class="exp-container">
+        <div class="reveal" style="text-align:center; margin-bottom:3rem;">
+        <span class="section-tag">Mon parcours</span>
+        <h2 class="section-title">Expérience & Formation</h2>
+        <div class="section-line" style="margin:1rem auto 0;"></div>
+        </div>
+
+        <div class="timeline">
+
+        <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Juillet – Août 2025</div>
+            <div class="timeline-card">
+            <h3>Stage d'initiation</h3>
+            <h4>Office Régional de Mise en Valeur Agricole de Tafilalt (ORMVA-tf)</h4>
+            <p>Développement d'une application web de gestion de parc informatique avec Laravel, MySQL, Bootstrap et JavaScript. Gestion des équipements, affectations et maintenance du parc informatique de l'office régional.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item reveal">
+            <div class="timeline-dot" style="background:var(--accent2);box-shadow:0 0 12px rgba(139,92,246,0.5);"></div>
+            <div class="timeline-date">2022 – Présent</div>
+            <div class="timeline-card">
+            <h3>Élève Ingénieur — Management et Gouvernance des SI</h3>
+            <h4>ENSA Khouribga (ENSAKH)</h4>
+            <p>Formation d'ingénieur axée sur la gestion des systèmes d'information, le développement logiciel, les bases de données, l'architecture des SI et la gouvernance IT. Projets pratiques variés en Java, PHP, Python, et frameworks web modernes.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item reveal">
+            <div class="timeline-dot" style="background:var(--accent3);box-shadow:0 0 12px rgba(6,182,212,0.5);"></div>
+            <div class="timeline-date">2022</div>
+            <div class="timeline-card">
+            <h3>Baccalauréat — Mention Très Bien</h3>
+            <h4>Établissement Iqrae 2 · Errachidia</h4>
+            <p>Spécialité Sciences Physiques et Chimiques. Obtenu avec mention Très Bien, récompensant un cursus scientifique rigoureux.</p>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </section>
+
+    <!-- ═══ CONTACT ════════════════════════════════════════════════════════ -->
+    <section id="contact">
+    <div class="contact-grid">
+        <div class="contact-info reveal">
+        <span class="section-tag">Contactez-moi</span>
+        <h2 class="section-title">Discutons de votre projet</h2>
+        <div class="section-line"></div>
+        <p>Disponible pour un stage PFA de 2 mois (juillet – août). N'hésitez pas à me contacter pour échanger sur une opportunité.</p>
+        <div class="contact-links">
+            <a href="mailto:abdeljalilsalmi3@gmail.com" class="contact-link">
+            <div class="cl-icon ic-blue"><i class="fas fa-envelope"></i></div>
+            <div>
+                <div class="cl-label">Email</div>
+                <div class="cl-val">abdeljalilsalmi3@gmail.com</div>
+            </div>
+            </a>
+            <a href="tel:+212607352751" class="contact-link">
+            <div class="cl-icon ic-purple"><i class="fas fa-phone"></i></div>
+            <div>
+                <div class="cl-label">Téléphone</div>
+                <div class="cl-val">+212 607 352 751</div>
+            </div>
+            </a>
+            <a href="https://www.linkedin.com/in/abdeljalil-s-9a729a245/" target="_blank" class="contact-link">
+            <div class="cl-icon" style="background:rgba(10,102,194,0.15);color:#0a66c2;"><i class="fab fa-linkedin"></i></div>
+            <div>
+                <div class="cl-label">LinkedIn</div>
+                <div class="cl-val">Abdeljalil Salmi</div>
+            </div>
+            </a>
+            <a href="https://github.com/abdeljalilsalmi" target="_blank" class="contact-link">
+            <div class="cl-icon" style="background:rgba(255,255,255,0.1);color:var(--text);"><i class="fab fa-github"></i></div>
+            <div>
+                <div class="cl-label">GitHub</div>
+                <div class="cl-val">abdeljalilsalmi</div>
+            </div>
+            </a>
+            <a href="Assets/Abdeljalil salmi.pdf" download class="contact-link" style="border-color:rgba(91,127,255,0.3);">
+            <div class="cl-icon ic-blue"><i class="fas fa-file-pdf"></i></div>
+            <div>
+                <div class="cl-label">Télécharger</div>
+                <div class="cl-val">Mon Curriculum Vitae</div>
+            </div>
+            </a>
+        </div>
+        </div>
+
+        <div class="contact-form-wrapper reveal">
+             <form action="https://formspree.io/f/xkopjgvo" 
+            method="POST" 
+            class="contact-form"
+            id="contactForm"
+            >
+
+            <div class="form-row">
+                <div class="form-group">
+                <label>Prénom</label>
+                <input type="text" name="firstname" placeholder="Jean" required>
+                </div>
+
+                <div class="form-group">
+                <label>Nom</label>
+                <input type="text" name="lastname" placeholder="Dupont" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="jean@company.com" required>
+            </div>
+
+            <div class="form-group">
+                <label>Objet</label>
+                <input type="text" name="subject" placeholder="Stage PFA" required>
+            </div>
+
+            <div class="form-group">
+                <label>Message</label>
+                <textarea name="message" rows="5" required></textarea>
+            </div>
+
+            <!-- Anti-spam -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-paper-plane"></i> Envoyer
+            </button>
+
+            <div class="form-success" id="formSuccess">
+                Message envoyé avec succès !
+            </div>
+
+            </form>
+        </div>
+    </div>
+    </section>
+
+    <!-- ═══ FOOTER ════════════════════════════════════════════════════════ -->
+    <footer>
+    <div class="footer-logo">AS.</div>
+    <p>© 2025 Abdeljalil SALMI · Élève Ingénieur en Management des SI</p>
+    <div style="display:flex;gap:1rem;">
+        <a href="https://www.linkedin.com/in/abdeljalil-s-9a729a245/" target="_blank" style="color:var(--text2);transition:color 0.2s;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text2)'"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/abdeljalilsalmi" target="_blank" style="color:var(--text2);transition:color 0.2s;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text2)'"><i class="fab fa-github"></i></a>
+        <a href="mailto:abdeljalilsalmi3@gmail.com" style="color:var(--text2);transition:color 0.2s;" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text2)'"><i class="fas fa-envelope"></i></a>
+    </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
